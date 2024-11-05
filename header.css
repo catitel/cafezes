@@ -1,0 +1,42 @@
+header {
+    width: 80%;
+}
+
+header img {
+    height: 5rem;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    background-color: #987b5d;
+    padding-left: 5rem;
+}
+
+header h1 {
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 1.6rem;
+}
+
+header nav {
+    background-color: wheat;
+    height: 5rem;
+    padding-left: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+
+nav > a {
+    color: brown;
+    font-size: 1.6rem;
+}@media(max-width:400px) 
+{
+    header{ width: 100%;}
+    .title{ padding: 0;}
+    header nav { padding-left: 0;}
+    nav > a{ font-size: 1.2rem;}
+}
